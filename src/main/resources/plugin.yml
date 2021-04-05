@@ -1,0 +1,11 @@
+name: RateAddon
+version: ${project.version}
+main: net.d3jott.RateAddon.RateAddon
+authors: [D3joTT]
+api-version: 1.13
+depend: ["PlotSquared", "PlaceholderAPI"]
+commands:
+  top:
+    description: Top plots
+    usage: /top
+    aliases: [topka, topserca, topserduszka, serduszkatop, sercatop]
