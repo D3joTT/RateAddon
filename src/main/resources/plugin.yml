@@ -1,6 +1,6 @@
 name: RateAddon
 version: ${project.version}
-main: net.d3jott.RateAddon.RateAddon
+main: net.d3jott.rateaddon.RateAddon
 authors: [D3joTT]
 api-version: 1.13
 depend: ["PlotSquared", "PlaceholderAPI"]
