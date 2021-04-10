@@ -25,6 +25,7 @@ public class GiveHearth implements CommandExecutor {
 
                 Plot.getPlot(plotAPI.wrapPlayer(pl.getUniqueId()).getLocation()).addRating(pl.getUniqueId(), rating);
             }
+
             return true;
         }
 
