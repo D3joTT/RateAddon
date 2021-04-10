@@ -28,6 +28,8 @@ public class InventoryClick implements Listener {
 
             String owner = clicked.getItemMeta().getLore().get(0).substring(16);
 
+            // NEED TO CHANGE IT!!!!!
+
             pl.chat("/plotme visit " + owner);
         }
     }
