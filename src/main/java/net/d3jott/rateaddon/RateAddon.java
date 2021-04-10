@@ -1,6 +1,6 @@
 package net.d3jott.rateaddon;
 
-import net.d3jott.rateaddon.commands.GiveHearth;
+import net.d3jott.rateaddon.commands.GiveHeart;
 import net.d3jott.rateaddon.commands.TopPlots;
 import net.d3jott.rateaddon.events.InventoryClick;
 import net.d3jott.rateaddon.placeholders.Placeholder;
@@ -23,7 +23,7 @@ public class RateAddon extends JavaPlugin {
     public void registerAllCommands() {
 
         this.getCommand("top").setExecutor(new TopPlots());
-        this.getCommand("serce").setExecutor(new GiveHearth());
+        this.getCommand("serce").setExecutor(new GiveHeart());
     }
 
     public void registerAllEvents() {
