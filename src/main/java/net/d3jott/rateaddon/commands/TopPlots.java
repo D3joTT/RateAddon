@@ -6,7 +6,7 @@ import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-public class MainCommand implements CommandExecutor {
+public class TopPlots implements CommandExecutor {
 
     Utils utils = new Utils();
 
@@ -20,6 +20,7 @@ public class MainCommand implements CommandExecutor {
 
             return true;
         }
+
         return false;
     }
 }
