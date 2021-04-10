@@ -1,6 +1,6 @@
 package net.d3jott.rateaddon;
 
-import net.d3jott.rateaddon.commands.MainCommand;
+import net.d3jott.rateaddon.commands.TopPlots;
 import net.d3jott.rateaddon.events.InventoryClick;
 import net.d3jott.rateaddon.placeholders.Placeholder;
 import org.bukkit.Bukkit;
@@ -12,7 +12,7 @@ public final class RateAddon extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        getCommand("top").setExecutor(new MainCommand());
+        getCommand("top").setExecutor(new TopPlots());
 
         Bukkit.getServer().getPluginManager().registerEvents(new InventoryClick(), this);
 
