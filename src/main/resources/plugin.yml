@@ -9,3 +9,7 @@ commands:
     description: Top plots
     usage: /top
     aliases: [topka, topserca, topserduszka, serduszkatop, sercatop]
+  serce:
+    description: Give heart
+    usage: /serce
+    aliases: [serduszko, serca, serduszka, ciastko, ciasteczko, heart, cookie]
