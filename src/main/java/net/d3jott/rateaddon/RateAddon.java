@@ -1,5 +1,6 @@
 package net.d3jott.rateaddon;
 
+import net.d3jott.rateaddon.commands.GiveHearth;
 import net.d3jott.rateaddon.commands.TopPlots;
 import net.d3jott.rateaddon.events.InventoryClick;
 import net.d3jott.rateaddon.placeholders.Placeholder;
@@ -12,7 +13,8 @@ public final class RateAddon extends JavaPlugin {
     @Override
     public void onEnable() {
 
-        getCommand("top").setExecutor(new TopPlots());
+        this.getCommand("top").setExecutor(new TopPlots());
+        this.getCommand("serce").setExecutor(new GiveHearth());
 
         Bukkit.getServer().getPluginManager().registerEvents(new InventoryClick(), this);
 
